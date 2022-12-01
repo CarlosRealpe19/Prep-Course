@@ -33,6 +33,7 @@ div,li,span,h1,h3,h4 {
 }
 
 span,h1,h3,h4,a {
+
     text-align: center;
     color:rgb(250, 239, 226);
     font-weight: bold;
