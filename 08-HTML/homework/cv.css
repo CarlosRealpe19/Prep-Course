@@ -1,0 +1,111 @@
+/*...colores...*/
+
+header,aside{
+    background-color: beige;
+}
+
+nav,footer{
+    background-color: rgb(100,100,100);
+}
+
+article{
+    background-color: rgb(30,10,20);
+    color: antiquewhite;
+}
+
+p{
+    color:beige;
+}
+
+strong{
+    color: rgb(78, 10, 61);
+}
+
+/*...Ajustar fotografia...*/
+
+img{
+    width: 15rem;
+}
+
+#imgCont{
+    padding-right: 0%;
+}
+
+/*...Layout...*/
+
+header, nav{
+    display: flex;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    align-items: top;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 3em 0px 3em;
+
+}
+/*llenar espacio sobrante*/
+.centrado,aside{
+    width: 100%;
+    padding: 0%;
+}
+
+/*...Estilos de texto...*/
+
+h1,h2,h3,h4,span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 1.6em;
+    padding: 0.5em;
+    margin: 0%;
+    text-decoration: underline;
+}
+
+h3{
+    font-size: 1.5em;
+    padding: 0.7em;
+    padding-left: 2em;
+}
+
+h4{
+    font-size: 1.4em;
+    font-weight: lighter;
+    padding: 0.8em;
+    padding-left: 2em;
+}
+
+span{
+    font-size: 1.4em;
+    font-weight: lighter;
+    
+}
+
+ul,p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+    padding: 1.5em;
+}
+
+#skils{
+    margin-top: 0%;
+    padding-top: 2em;
+}
+
+ul{
+    padding: 0% 2em 1em 4em;
+}
+
+p{
+    margin: 0%;
+}
